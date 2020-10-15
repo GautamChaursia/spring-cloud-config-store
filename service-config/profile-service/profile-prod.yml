@@ -9,4 +9,4 @@ spring:
       ddl-auto: update
 
 server:
-    port: 8191
+    port: 8192
