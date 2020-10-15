@@ -1,2 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?createDatabseIfNotExist=true
+    username: postgres
+    password: Welcome@1234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
 server:
     port: 8191
